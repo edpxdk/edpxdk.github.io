@@ -1,67 +1,85 @@
-*,
-html {
-    margin: 0%;
-    padding: 0%;
-}
-
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 2%;
-    background-color: rgb(231, 231, 231);
-    
-    
-    
-    
-    
+  margin: 0;
+  padding: 0;
+  background-color: rgb(9, 124, 224);
 }
 
-.content {
-    background-color: white;
-    padding: 3%;
+.container {
+  background-color: white;
+  border-radius: 5%;
+  width: 40%;
+  height: 40%;
+  margin: 30% auto;
+  padding: 3%;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar {
-    background-color: white;
+.item {
+  text-align: center;
+  position: relative;
 }
 
-.img-con {
-    border-radius: 50%;
-    width: 10%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
+.right {
+  float: right;
+  padding-right: 10%;
 }
 
-.text-con {
-    text-align: center;
+.left {
+  float: left;
+  padding-left: 10%;
 }
 
-.ul-nav {
-    display: flex;
-    justify-content: center;
-    
+.item img {
+  width: 40%;
+  height: 20%;
 }
 
-.a-nav {
-    text-decoration: none;
-    color: blue;
+a {
+  text-decoration: none;
 }
 
-.li-nav {
-    list-style-type: none;
-    padding: 1%;
-    margin-top: 4px;
+.login a {
+  display: block;
+  background-color: rgb(9, 124, 224);
+  padding: 2%;
+  width: 90%;
+  margin: 1% auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  border-radius: 15px;
 }
 
-.h3-nav {
-    text-align: center;
-    border-radius: 1px;
-    background: blue;
-    
+.kolom {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-.a-h3 {
-    text-decoration: none;
-    color: white;
+h4 {
+  margin-top: -3%;
+}
+
+p {
+  font-size: 80%;
+}
+
+.left a {
+  color: grey;
+}
+
+.right a {
+  color: grey;
+}
+
+.left a:hover {
+  color: rgb(0, 106, 255);
+}
+
+.right a:hover {
+  color: rgb(0, 106, 255);
+}
+
+input {
+  width: 90%;
 }
