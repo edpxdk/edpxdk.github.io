@@ -13,6 +13,7 @@ body {
   padding: 3%;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
+  overflow: auto;
 }
 
 .item {
@@ -31,8 +32,12 @@ body {
 }
 
 .item img {
-  width: 50%;
+  width: 40%;
   height: 20%;
+}
+
+.clear {
+  clear: right;
 }
 
 a {
@@ -57,7 +62,7 @@ a {
 }
 
 h4 {
-  margin-top: -3%;
+  margin-top: -2%;
 }
 
 p {
