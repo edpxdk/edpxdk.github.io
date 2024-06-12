@@ -7,8 +7,8 @@ body {
 .container {
   background-color: white;
   border-radius: 5%;
-  width: 40%;
-  height: 40%;
+  width: 85%;
+  height: 10%;
   margin: 30% auto;
   padding: 3%;
   position: relative;
@@ -31,7 +31,7 @@ body {
 }
 
 .item img {
-  width: 40%;
+  width: 50%;
   height: 20%;
 }
 
