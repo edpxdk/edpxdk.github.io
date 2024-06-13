@@ -4,30 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="item">
+    <nav class="container">
+      <div class="navbar">
+        <!-- NAVBAR -->
+        <span class="navbar-nav">
+          <a class="left" href="#">ADMIN</a>
+          <a class="right" href="#">KEPALA GUDANG</a>
+        </span>
+        <div class="clear"></div>
         <img src="SDM-LOGO copy_0.png" alt="SDM POLRI" />
         <h1>SIGN IN</h1>
-        <form class="kolom">
+        <!-- FORM -->
+        <form class="navbar-kolom">
           <table>
             <tr>
-              <td><label for="Username">Username</label></td>
-              <td><input type="text" id="Username" /></td>
+              <td><input type="text" placeholder="Username" /></td>
             </tr>
             <tr>
-              <td><label for="Password">Password</label></td>
-              <td><input type="password" id="Password" /></td>
+              <td><input type="password" placeholder="Password" /></td>
             </tr>
           </table>
         </form>
-        <div class="login">
+        <div class="navbar-login">
           <a href="#">SIGN IN</a>
         </div>
         <p>Already have an account? <a href="index.html">Login</a></p>
       </div>
-    </div>
+    </nav>
   </body>
 </html>
