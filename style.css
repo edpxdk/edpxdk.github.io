@@ -13,13 +13,30 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
+/* Media Queries */
 
+/* Laptop */
+@media (max-width: 2560px) {
+  html .container {
+    width: 40%;
+  }
+}
+/* Tablet */
+@media (max-width: 768px) {
+  html .container {
+    width: 60%;
+  }
+}
+/* Phone */
+@media (max-width: 430px) {
+  html .container {
+    width: 80%;
+  }
+}
 .container {
   background-color: white;
-  width: 60%;
   border-radius: 15px;
-  padding: 2% 1%;
-  height: 50%;
+  padding: 2%;
 }
 
 .navbar {
@@ -78,5 +95,5 @@ p {
 }
 
 input {
-  width: 250px;
+  width: 95%;
 }
