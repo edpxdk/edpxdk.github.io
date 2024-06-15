@@ -2,25 +2,28 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: rgb(9, 124, 224);
   font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .container {
   background-color: white;
-  border-radius: 2%;
-  width: 80%;
-  margin: 50% auto;
-  padding: 2% 0;
-  position: relative;
+  width: 60%;
+  border-radius: 15px;
+  padding: 2% 1%;
+  height: 50%;
 }
 
 .navbar {
   text-align: center;
-  position: relative;
 }
 
 .navbar-nav a {
@@ -40,8 +43,8 @@ body {
 .navbar-login a {
   display: block;
   background-color: rgb(9, 124, 224);
-  padding: 1%;
   width: 90%;
+  padding: 0.5%;
   margin: 1% auto;
   color: white;
   border-radius: 15px;
@@ -75,5 +78,5 @@ p {
 }
 
 input {
-  width: 95%;
+  width: 250px;
 }
